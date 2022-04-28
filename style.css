@@ -344,12 +344,17 @@ padding: 3px;
 #asideInterno{
 display: flex;
 flex-direction: column;
+align-items:flex-start;
 
 
-width: 242px;
+/* width: 242px; */
 margin-top: 18px;
 
-margin-left: 6px;
+margin-left: 10px;
+
+
+
+
 
 }
 
@@ -375,4 +380,122 @@ margin-left: 6px;
     font-weight: 500;
    
 }
+.btn1{
+   padding-bottom: 6px;
+}
 
+#comocitar{
+
+    font-family: 'Roboto';
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    font-size: 14px;
+    
+    margin-top: 12px;
+    color: #ED7839;
+}
+
+
+#detalhes{
+    font-family: 'Quicksand';
+    font-style: normal;
+    
+    font-size: 12px;
+    line-height: 120%;
+    
+    letter-spacing: 0.02em;
+    
+    color: #5C5C5C;
+
+    margin-left: -28px;
+
+    border: 1px solid  #ECECEC; 
+    border-radius: 3px;
+
+    width: 248px;
+    margin-top: 10px;
+
+  
+    
+}
+
+#tituloDetalhes{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+
+   
+    width: 88%;
+
+    background: #FDF1EB;
+    border-radius: 3px 3px 0px 0px;
+
+
+    
+    padding: 11px 15px 9px 15px;
+   
+
+}
+
+#infoDetalhes{
+    overflow-y:scroll;
+    height:364px;
+    padding: 15px;
+
+    border: 1px solid red;
+    
+
+}
+
+
+    #infoDetalhes::-webkit-scrollbar {
+        width: 3px;               /* width of the entire scrollbar */
+        
+    }
+      
+      #infoDetalhes::-webkit-scrollbar-track {
+        background: #E7E7E7;
+        
+  
+      }
+      
+      #infoDetalhes::-webkit-scrollbar-thumb {
+        background-color: blue;    
+        border-radius: 5px;             
+        border: 3px solid #BFBFBF;;  
+      
+    }
+
+
+
+
+#infoDetalhes p {
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    padding: 3px 0px;
+}
+
+#infoDetalhes strong{
+
+    font-weight: 500;
+}
+
+#autores{
+
+margin: 15px 0px;
+    
+}
+
+#autores p{
+
+    font-size:14px;
+    line-height: 110%;
+    
+}
