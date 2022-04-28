@@ -14,6 +14,10 @@
    
 }
 
+a{
+    text-decoration: none;
+}
+
 /* CONTAÍNER PRINCIPAL CENTRO */
 #principal{
 
@@ -33,8 +37,8 @@ header{
     flex-direction: row;
     justify-content: space-between;
 
-    height: 100;
-    padding: 4px 0px 3px 36px;
+    
+    padding: 4px 0px 2px 36px;
     background: #FDF1EB;   
 
     font-size: 14px;
@@ -199,7 +203,7 @@ height: 19px;
 }
 
 nav a {
-    text-decoration:none;
+   
     color: #725C5C;
     display: block;
 }
@@ -340,18 +344,18 @@ padding: 3px;
 #asideInterno{
 display: flex;
 flex-direction: column;
-justify-content: space-between;
 
 
 width: 242px;
-margin-top: 20px;
+margin-top: 18px;
+
+margin-left: 6px;
 
 }
 
 #botoes{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
 
 
@@ -362,22 +366,13 @@ margin-top: 20px;
     background: #ED7839;
 
     color: white;
-    margin: 0px 5px;
-    padding: 6px;
+    margin: 0px 3px;
     border-radius: 4px;
 
-}
+    padding: 6px 12px;
+    padding-bottom: 4px;
 
-.btn1{
-
-    flex-grow: 1;
-    width: 120px;
-}
-
-.btn{
-
-    width: 37px;
-    height: 25px;
-    
+    font-weight: 500;
+   
 }
 
