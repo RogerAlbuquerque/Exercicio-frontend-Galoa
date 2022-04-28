@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 
@@ -223,8 +223,7 @@ nav a:hover{
 
 #trabPrincipal{
 display: flex;
-/* flex-direction: row;
-justify-content: space-around; */
+
 
 
 
@@ -445,38 +444,34 @@ margin-left: 10px;
     height:364px;
     padding: 15px;
 
-    border: 1px solid red;
+
     
 
 }
 
-
-    #infoDetalhes::-webkit-scrollbar {
-        width: 3px;               /* width of the entire scrollbar */
-        
-    }
+/* CONFIGURAÇÃO DA SCROLLBAR */
+#infoDetalhes::-webkit-scrollbar {
+ width: 3px;     
+}
       
-      #infoDetalhes::-webkit-scrollbar-track {
-        background: #E7E7E7;
-        
-  
-      }
+#infoDetalhes::-webkit-scrollbar-track {
+     background: #E7E7E7;
+}
       
-      #infoDetalhes::-webkit-scrollbar-thumb {
-        background-color: blue;    
-        border-radius: 5px;             
-        border: 3px solid #BFBFBF;;  
-      
-    }
+#infoDetalhes::-webkit-scrollbar-thumb {
+    background-color: blue;    
+    border-radius: 5px;             
+    border: 3px solid #BFBFBF;;  
+}
 
-
+/* CONFIGURAÇÃO DA SCROLLBAR */
 
 
 #infoDetalhes p {
 
     font-family: 'Quicksand';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 12px;
     line-height: 120%;
     padding: 3px 0px;
@@ -488,14 +483,22 @@ margin-left: 10px;
 }
 
 #autores{
+margin: 15px 0px 30px 0px;   
 
-margin: 15px 0px;
-    
 }
 
 #autores p{
-
     font-size:14px;
     line-height: 110%;
+}
+
+#locais p{
+
+    color:#898989;
+    font-size: 11px;
+    padding: 2px 0px;
+    letter-spacing: 0.01em;
+
+   
     
 }
