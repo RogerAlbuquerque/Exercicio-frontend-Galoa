@@ -1,13 +1,36 @@
 function newTopic(){
 
-let x = document.getElementById("topico")
-x.innerHTML=""
+let formulario = document.getElementById("criandoTopico")
+let topico = document.getElementById("topico")
 
-let nTopic = document.createElement('div')
 
-nTopic.innerHTML = "Roger"
 
-x.appendChild(nTopic)
+
+formulario.style.display="block"
+
+topico.style.display="none"
+
+
+
+// let x = document.getElementById("topico")
+// x.innerHTML=""
+
+// let nTopic = document.createElement('div')
+
+// nTopic.innerHTML = ` `
+
+// x.appendChild(nTopic)
+
+
+}
+
+
+
+
+function sendForm(){
+
+
+console.log("Roger ta funcionando")
 
 
 }
