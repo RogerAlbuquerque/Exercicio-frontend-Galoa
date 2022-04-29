@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 
@@ -104,6 +104,7 @@ header h1{
 
     font-family: "Quicksand";
     text-align: right;
+    font-weight: 400;
     font-size:14px;
 }
 
@@ -387,7 +388,7 @@ margin-left: 10px;
 
     font-family: 'Roboto';
     font-weight: 500;
-    letter-spacing: 0.14em;
+    letter-spacing: 0.05em;
     font-size: 14px;
     
     margin-top: 12px;
@@ -418,7 +419,7 @@ margin-left: 10px;
     
 }
 
-#tituloDetalhes{
+.tituloDetalhes{
 
     font-family: 'Roboto';
     font-style: normal;
@@ -498,7 +499,72 @@ margin: 15px 0px 30px 0px;
     font-size: 11px;
     padding: 2px 0px;
     letter-spacing: 0.01em;
+  
+}
 
+
+#resDiscussoes{
+display: flex;
+flex-direction: column;
+
+width: 100%;    
+}
+.resTop{
    
+    width: 100%;
+    height: 45px;
+
+
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0px 0px;
+}
+
+.resumo{
+    width: 66.4em;
+    margin-left:43px;
+    border: 1px solid #ECECEC;
+
+    margin-left:43px;
+    margin-right: 46px;
+    margin-top: 20px;
+
+    margin: 20px 46px 30px 43px;
     
+
+}
+.resumo p{
+    font-family: 'Quicksand';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+
+    padding: 15px;
+    color: #5C5C5C;
+}
+
+.resumo a {
+    color: #ED7839;
+    font-weight: 500;
+
+}
+
+
+.discussoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#spc1 h1{
+
+    font-weight: 600;
+    font-size: 18px;
+    padding-top:15px ;
+    padding-bottom:27px ;
+
+    color: #ED7839;
+
 }
