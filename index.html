@@ -7,6 +7,8 @@
     <title>Trabalho_Base</title>
 
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="interacoes.css">
+    <script src="index.js"></script>
 
    
 
@@ -273,7 +275,7 @@
                         dictum accumsant... <a href="#">ver mais</a></p>
                     </article> 
 
-                    <article class="discussoes resumo">
+                    <article class="discussoes resumo" >
                         <h1 class="tituloDetalhes resTop">
                             Discussões
                         </h1>
@@ -282,45 +284,88 @@
                         
                         
                         
-                        
-                        
-                        <section id="spc1">
-                           <h1 > Compartilhe suas ideias ou dúvidas com os autores! </h1>
-                        </section>
-
-
-                        <section id="spc2">
-                            <article>
-                            <img src="midias/icone1.png">
-
-                            <img src="midias/icone2.png">
+                        <!-- <div id="topico"class=" discussoes resumo" style="border: none;">
                             
-                            <img src="midias/icone3.png">
-                            </article>
-                        </section>
+                            <section id="spc1" >
+                            <h1 > Compartilhe suas ideias ou dúvidas com os autores! </h1>
+                            </section>
+
+
+                            <section id="spc2">
+                                <article>
+                                <img src="midias/icone1.png">
+
+                                <img src="midias/icone2.png">
+                                
+                                <img src="midias/icone3.png">
+                                </article>
+                            </section>
 
 
 
-                        <section id="spc3">
-                               <p>Sabia que o maior estímulo no desenvolvimento científico e 
-                                   cultural é a curiosidade? Deixe seus questionamentos 
-                                   ou sugestões para o autor!</p>
-                        </section>
+                            <section id="spc3">
+                                <p>Sabia que o maior estímulo no desenvolvimento científico e 
+                                    cultural é a curiosidade? Deixe seus questionamentos 
+                                    ou sugestões para o autor!</p>
+                            </section>
 
 
-                        <section id="novoTopico">
+                            <section id="novoTopico" onclick="newTopic()">
+                                
+                                <img src="midias/adicao.png" style="margin-right: 6px;"> 
+                                <span style="font-weight: 500;">criar tópico</span>
+                                
+
+                            </section> 
+
+                        </div> -->
+
+                        <div id="criandoTopico">
+                           <div id="tituloFormulario">
+                               
+                            <h1>Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</h1> 
+                             
+                        </div>
+
+
+                            <section id="formulario" style="padding: 15px;">
+
+                                <form >
+                                    <label class=tform for="assunto">Assunto</label><br>
+                                    <input class="fAssunto fassunto" type="text" placeholder="Defina um tópico sucinto para notificar os autores..."><br><br>
+
+                                    <label class=tform for="conteudo">Conteúdo</label><br>
+                                    <input class="fAssunto fconteudo"  type="text"  ><br><br>
+                                    
+                                    <div id="fenviar">
+                                        <section>
+                                            <img src="midias/bold.png">
+                                            <img src="midias/italico.png">   
+                                        </section> 
+                                    <button class="botao">Enviar</button>
+                                    </div>
+                                </form>
+
+                            </section>
+                        </div>
                             
-                            <img src="midias/adicao.png" style="margin-right: 6px;"> 
-                            <span style="font-weight: 500;">criar tópico</span>
-                            
-
-                        </section>
                        
+                       
+
+
+
+
+
+
+
+
+
+
 
                         
                         <section>
 
-                            <div id="novoAssunto">
+                            <div id="novoAssunto" >
                                 <h2> Assunto da pergunta aparece aqui </h2>
                                 <span>Carlos Henrique Santos</span>
 

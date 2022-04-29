@@ -1,0 +1,82 @@
+
+
+
+#tituloFormulario h1{
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+ 
+    
+    text-align: center;
+
+}
+
+
+#criandoTopico{    
+    align-items: center;
+    width: 100%;   
+}
+
+ .fassunto {
+
+    height: 39px;
+}
+
+.fconteudo{
+    height: 113px;
+
+}
+.tform{
+
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+
+
+
+color: #ED7839;
+}
+
+.fAssunto{
+
+width: 100%;
+background: #FFFFFF;
+border: 1px solid #CCCCCC;
+border-radius: 3px;
+
+
+}
+
+
+.botao{
+
+background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+border-radius: 0px 0px 4px 0px;
+border: none;
+width: 206.1px;
+margin-right: -2px;
+height: 31px;
+font-size: 15px;
+
+}
+
+#fenviar{
+    display: flex;
+
+}
+
+#fenviar section{
+
+    background: #EAF1F2;
+    border: 1px solid #CCCCCC;
+    border-radius: 0px 0px 4px 4px;
+    
+    margin-right:-4px ;
+
+    width: 100%;
+}
