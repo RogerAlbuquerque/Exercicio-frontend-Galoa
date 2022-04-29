@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 
@@ -570,6 +570,7 @@ width: 100%;
 
 #spc2 img{
 margin: 0px 31px;
+cursor: pointer;
 }
 
 #spc3 {
@@ -595,6 +596,97 @@ margin: 0px 31px;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
     border-radius: 4px;
 
+    cursor: pointer;
+
 }
 
 
+#novoAssunto{
+
+border: 1px solid red;
+
+padding-top: 1.3em;;
+padding-left: 1.5em;
+padding-bottom: 1em;
+margin: 15px;
+
+background: #FFFFFF;
+border: 1px solid #E7E7E7;
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+
+}
+
+#novoAssunto h2{
+    font-family: 'Quicksand';
+    font-weight: 900;
+    font-size: 16px;
+    
+    
+    
+    
+    color: #ED7839;
+
+}
+
+#novoAssunto span{
+
+    font-family: 'Quicksand';
+
+    font-weight: 600;
+    font-size: 12px;
+    
+    color: #5C5C5C;
+}
+
+
+#novoAssunto p{
+
+
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+
+padding: 10px 0px;
+
+color: #4D4D4D;
+}
+
+#interacoes{
+display: flex;
+
+}
+
+#interacoes p{
+
+    padding: 0px 15px;
+}
+
+#pontos img{
+    display: flex;
+    flex-direction: column;
+    margin: 3px 0px;
+    cursor: pointer;
+}
+
+#like{
+    text-align: center;
+    padding-top: 3px;
+    margin-left: 1em;
+    background: url(midias/button.png) no-repeat;
+    background-size: auto;
+
+    height: 19px;
+    width: 27px;
+   
+    border-radius: 2px;
+
+}
+
+footer{
+
+    margin-left:43px;
+    margin-right: 46px;
+    margin-top: 20px;
+
+}
