@@ -27,6 +27,7 @@
 
 .fconteudo{
     height: 113px;
+    margin-bottom: -20px;
 
 }
 .tform{
@@ -53,15 +54,17 @@ border-radius: 3px;
 }
 
 
-.botao{
+.fbotao{
 
 background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
 border-radius: 0px 0px 4px 0px;
 border: none;
-width: 206.1px;
+width:21.4%;
 margin-right: -2px;
 height: 31px;
 font-size: 15px;
+
+color: white;
 
 }
 
@@ -76,7 +79,15 @@ font-size: 15px;
     border: 1px solid #CCCCCC;
     border-radius: 0px 0px 4px 4px;
     
+    
     margin-right:-4px ;
 
-    width: 100%;
+    width: 84%;
+}
+
+#fenviar section img{
+    text-align: center;
+   
+    padding: 9px 12px 0px 25px;
+
 }
