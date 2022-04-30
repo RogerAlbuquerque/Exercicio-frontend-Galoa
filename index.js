@@ -1,7 +1,10 @@
+var formulario = document.getElementById("criandoTopico")
+var topico = document.getElementById("topico")
+var confirmTopico = document.getElementById("confirmEnvioTopico")
+
 function newTopic(){
 
-let formulario = document.getElementById("criandoTopico")
-let topico = document.getElementById("topico")
+
 
 
 
@@ -9,6 +12,7 @@ let topico = document.getElementById("topico")
 formulario.style.display="block"
 
 topico.style.display="none"
+confirmTopico.style.display="none"
 
 
 
@@ -29,8 +33,7 @@ topico.style.display="none"
 
 function sendForm(){
 
-
-console.log("Roger ta funcionando")
-
+    formulario.style.display="none"
+    confirmTopico.style.display="block"
 
 }

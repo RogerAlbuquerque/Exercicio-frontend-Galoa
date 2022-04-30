@@ -33,10 +33,12 @@ a{
 
 header{
 
+    border: 1px solid red;       
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
+    min-width: 700px;
     
     padding: 4px 0px 2px 36px;
     background: #FDF1EB;   
@@ -145,6 +147,7 @@ header h1{
     line-height: 30px;
     text-align: center;
     color: white;
+    z-index: -1;
 
     
     height: 70px;
@@ -317,6 +320,7 @@ color: black;
   #video{
     position: relative;
     margin-top: 19px;
+    z-index: -1;
 }
 
 

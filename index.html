@@ -364,7 +364,7 @@
 
 
 
-
+ <!-- --------------------------------------CONTEUDO QUE APARECE AO APERTAR NO BOTÃO "CRIAR TÓPICO"-------------------------------------------------- -->
                         
                         <div id="criandoTopico" >
                             <div id="tituloFormulario">
@@ -377,18 +377,20 @@
                             <section id="formulario" style="padding: 15px;">
 
                                 <form >
-                                    <label class=tform for="assunto">Assunto</label><br>
+                                    <label class=tform for="assunto">Assunto</label>
                                     <input class="fAssunto fassunto" type="text" placeholder="Defina um tópico sucinto para notificar os autores..."><br><br>
 
-                                    <label class=tform for="conteudo">Conteúdo</label><br>
-                                    <input class="fAssunto fconteudo"  type="text"  ><br><br>
+                                    <label class=tform for="conteudo">Conteúdo</label>
+                                    <input class="fAssunto fconteudo"  type="text"  >
                                     
                                     <div id="fenviar">
-                                        <section>
-                                            <img src="midias/bold.png">
-                                            <img src="midias/italico.png">   
+                                        <section >
+                                            <img src="midias/bold.png" style="cursor: pointer;">
+                                            <img src="midias/italico.png" style="cursor: pointer;">   
                                         </section> 
-                                    <button class="fbotao" onclick="sendForm()">Enviar</button>
+                                    <button class="fbotao" onclick="sendForm()" style="cursor: pointer;">
+                                        Enviar
+                                    </button>
                                     </div>
                                     
                                 </form> 
@@ -398,7 +400,114 @@
                         </div> 
                             
                        
-                       
+ <!-- --------------------------------------CONTEUDO QUE APARECE AO APERTAR NO BOTÃO "CRIAR TÓPICO"-------------------------------------------------- -->                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--------------------------------------------------- O QUE APARECE COM A CONFIRMAÇÃO DO ENVIO DO TÓPICO ------------------------------------------------------->
+
+
+                                <div id="confirmEnvioTopico" style="display: none;">
+
+                                    <div id="" >
+                                        <div id="tituloFormulario">
+                                             <h2 id="tituloformenv">Seu tópico foi enviado com sucesso! :D</h1>
+                                             <h2 style="padding-top: 15px; font-weight: 300;">Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!</h2> 
+                                             
+                                                <h2 style="text-decoration-line: underline;color: #F48F44; padding-top: 29px;">
+                                                    Descubra outros trabalhos!
+                                                </h2>
+                                        </div>
+
+                                        
+            
+            
+                                        <section id="formulario" style="padding: 15px;">
+                                            
+                                            <section id="novoTopico" onclick="newTopic()">
+                                
+                                                <!-- <img src="midias/adicao.png" style="margin-right: 6px;">  -->
+                                                <span style="font-weight: 500;">criar novo tópico</span>
+                                                
+                
+                                            </section> 
+                                            <hr style="margin-top: 12px;border: 1px solid #E7E7E7;">
+            
+                                        </section>
+                                    </div> 
+
+                                </div>
+
+
+
+
+<!--------------------------------------------------- O QUE APARECE COM A CONFIRMAÇÃO DO ENVIO DO TÓPICO ------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
