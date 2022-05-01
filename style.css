@@ -608,7 +608,7 @@ cursor: pointer;
 }
 
 
-#novoAssunto{
+.novoAssunto{
 
 
 padding-top: 1.3em;;
@@ -623,7 +623,7 @@ border-radius: 4px;
 
 }
 
-#novoAssunto h2{
+.novoAssunto h2{
     font-family: 'Quicksand';
     font-weight: 900;
     font-size: 16px;
@@ -635,7 +635,7 @@ border-radius: 4px;
 
 }
 
-#novoAssunto span{
+.novoAssunto .nomeAutor{
 
     font-family: 'Quicksand';
 
@@ -646,7 +646,7 @@ border-radius: 4px;
 }
 
 
-#novoAssunto p{
+.novoAssunto p{
 
 
 font-weight: 400;
