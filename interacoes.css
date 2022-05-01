@@ -15,7 +15,7 @@
 
 
 #criandoTopico{    
-    align-items: center;
+    /* align-items: center; */
     width: 100%;   
 }
 
@@ -29,18 +29,16 @@
     margin-bottom: -20px;
 
 }
+
 .tform{
 
 font-family: 'Roboto';
 font-weight: 700;
-font-size: 16px;
-line-height: 19px;
-
-
-
-
 color: #ED7839;
 }
+
+
+
 
 .fAssunto{
 
@@ -55,24 +53,20 @@ border-radius: 3px;
 
 .fbotao {
     text-align: center;
-    padding-top:4px ;
-    padding-bottom: 4px;
+    padding-top:3px ;
 
 background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
 border-radius: 0px 0px 4px 0px;
 border: none;
 width:21.4%;
 margin-right: -2px;
-height: 21px;
-font-size: 15px;
-
 color: white;
 
 }
 
 #fenviar{
     display: flex;
-
+   
 }
 
 #fenviar section{
@@ -80,16 +74,13 @@ color: white;
     background: #EAF1F2;
     border: 1px solid #CCCCCC;
     border-radius: 0px 0px 4px 4px;
-    
-    
-    margin-right:-4px ;
+    margin-right:-4px;
 
     width: 84%;
 }
 
 #fenviar section img{
-    text-align: center;
-   
+    text-align: center;   
     padding: 9px 12px 0px 25px;
 
 }
@@ -108,14 +99,36 @@ color: #ED7839;
 }
 
 
+
+
+
+
+
+
+
 #respostaForm{
 
+
+position: relative;    
 text-align: center;
-margin-right: 160px;
-top: -110px;
+margin-right: 40px;
+top: -40px;
 
 }
 
+
+
+
+
+.novoBlur{
+    filter: blur(4px);
+    background-color: #E7E7E7;
+    position: relative;
+    margin-bottom:-60px;
+
+   
+
+}
 
 
 
@@ -126,9 +139,6 @@ font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 20px;
-
-
-
 
 color: #707070;
 }

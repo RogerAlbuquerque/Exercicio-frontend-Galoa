@@ -21,7 +21,7 @@
 
 <body>
     
-<div id="container">    <!-- DIV CONTAINER DE TODO O SITE -->
+<div id="container" style="width: 100%;">    <!-- DIV CONTAINER DE TODO O SITE -->
 
     <!-- INÍCIO ASIDE -->
     <aside>
@@ -103,14 +103,13 @@
                     </article>
 
                     <article id="login">
-                        <figure>
+                        <section>
                             <img src="midias/fotoPerfil.png"/>                                    
                             <div id="notificacao">
                                 2
-                            </div>
+                            </div>                        
                         
-                        
-                        </figure>
+                        </section>
                     </article>
                 </section>
                 <!-- FIM CONFIGURAÇÃO LOGIN -->
@@ -143,28 +142,29 @@
                     <!-- PARTES DO VÍDEO E SEUS TÍTULOS -->
                     <section>
                         <div id="video">
+                                <div id="conteudoInVideo" style="display: block;">
+                                    <!-- CONTEÚDO DE DENTRO DO PLAYER DE VÍDEO  -->
+                                    <div class="textoVideo";>Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP </div>
+                                
+                                    <div class="textoVideo nomePessoa">
+                                        Beatriz Christiane Melo
+                                    
+                                        <span style="font-size: 20px; font-weight: 900; padding-top: 8px; line-height: 25px;"> 
+                                        FCA / Universidade Estadual de Campinas
+                                        </span>  
 
-                               <!-- CONTEÚDO DE DENTRO DO PLAYER DE VÍDEO  -->
-                            <div class="textoVideo";>Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP </div>
+                                    </div>
+                                    
+                                    <div>
+                                        <img id="imgVideo" style="border-radius: 80%;" src="midias/image.png" width="75px" height="75px">
+                                    </div>
+                                    <!-- CONTEÚDO DE DENTRO DO PLAYER DE VÍDEO  -->
+
+                                </div>    
+                            <div >
+                              <video id="midiaVideo" src="midias/video.webm" width="783px" heigth="439px" type="video/webm" poster="midias/rico.jpg" style="border-radius: 3px;" onclick="videoplay()" controls ></video>
+                            </div>
                            
-                            <div class="textoVideo nomePessoa">
-                                Beatriz Christiane Melo
-                              
-                                <span style="font-size: 20px; font-weight: 900; padding-top: 8px; line-height: 25px;"> 
-                                FCA / Universidade Estadual de Campinas
-                                </span>  
-
-                            </div>
-                            
-                            <div>
-                                <img id="imgVideo" style="border-radius: 80%;" src="midias/image.png" width="75px" height="75px">
-                            </div>
-                                 <!-- CONTEÚDO DE DENTRO DO PLAYER DE VÍDEO  -->
-
-                            
-                            <div>
-                              <video src="midias/video.webm" width="783px" heigth="439px" type="video/webm" poster="midias/rico.jpg" style="border-radius: 3px;" controls ></video>
-                            </div>
 
                         </div>
                     </section>
@@ -184,7 +184,7 @@
                     </article>
 
                     <article >
-                        <p id="comocitar">COMO CITAR ESSE TRABALHO?</p>
+                        <a href="#"> <p id="comocitar">COMO CITAR ESSE TRABALHO?</p> </a>
                     </article>
 
                     <article id="detalhes" >
@@ -260,11 +260,11 @@
 
 
 
-            <div id="resDiscussoes" >
+            <div>        <!-- id="resDiscuccoes"  foi tirado daqui-->
 
                     <article class="resumo" id="textoResumo">
-                        <h1 class="tituloDetalhes resTop">Resumo</h1>
-                       <p class=""> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis auctor, 
+                        <h1 class="tituloDetalhes resTop" >Resumo</h1>
+                       <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis auctor, 
                         mollis felis ut, commodo turpis. Phasellus felis mauris, egestas eget cursus et, iaculis quis 
                         lacus. Fusce ut auctor eros sed magna ultricies gravida. Etiam aliquam dictum nisl, vel aliquet 
                         enim accumsan sit amet. Donec finibus ut  nisi tellus, ut viverra lorem vestibulum ut.  
@@ -272,74 +272,54 @@
                         Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum Phasellus 
                         condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque 
                         sollicitudin ligula in sapien, ut ac gravida eros vestibulum.  Etiam aliquam 
-                        dictum accumsant... <span style="cursor: pointer; color:#ED7839;"  onclick="resumoInteiro()">ver mais</span></p>
+                        dictum accumsant... <span id="verMais" style="cursor: pointer; color:#ED7839;"  onclick="resumoInteiro()">ver mais</span></p>
+                        
+                        <div class="textoEscondido" style="display: none;">
+                            <p >
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis auctor, 
+                                mollis felis ut, commodo turpis. Phasellus felis mauris, egestas eget cursus et, iaculis quis 
+                                lacus. Fusce ut auctor eros sed magna ultricies gravida. Etiam aliquam dictum nisl, vel aliquet 
+                                enim accumsan sit amet. Donec finibus ut  nisi tellus, ut viverra lorem vestibulum ut.  
+                                Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. 
+                                Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum Phasellus 
+                                condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque 
+                                sollicitudin ligula in sapien, ut ac gravida eros vestibulum.  Etiam aliquam 
+                                dictum accumsant... 
+                            </p>
 
-                        <p class="textoEscondido1">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis auctor, 
-                            mollis felis ut, commodo turpis. Phasellus felis mauris, egestas eget cursus et, iaculis quis 
-                            lacus. Fusce ut auctor eros sed magna ultricies gravida. Etiam aliquam dictum nisl, vel aliquet 
-                            enim accumsan sit amet. Donec finibus ut  nisi tellus, ut viverra lorem vestibulum ut.  
-                            Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. 
-                            Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum Phasellus 
-                            condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque 
-                            sollicitudin ligula in sapien, ut ac gravida eros vestibulum.  Etiam aliquam 
-                            dictum accumsant... 
-                        </p>
+                            <p >
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis auctor, 
+                                mollis felis ut, commodo turpis. Phasellus felis mauris, egestas eget cursus et, iaculis quis 
+                                lacus. Fusce ut auctor eros sed magna ultricies gravida. Etiam aliquam dictum nisl, vel aliquet 
+                                enim accumsan sit amet. Donec finibus ut  nisi tellus, ut viverra lorem vestibulum ut.  
+                                Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. 
+                                Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum Phasellus 
+                                condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque 
+                                sollicitudin ligula in sapien, ut ac gravida eros vestibulum.  Etiam aliquam 
+                                dictum accumsant... 
+                            </p>
 
-                        <p class="textoEscondido2">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis auctor, 
-                            mollis felis ut, commodo turpis. Phasellus felis mauris, egestas eget cursus et, iaculis quis 
-                            lacus. Fusce ut auctor eros sed magna ultricies gravida. Etiam aliquam dictum nisl, vel aliquet 
-                            enim accumsan sit amet. Donec finibus ut  nisi tellus, ut viverra lorem vestibulum ut.  
-                            Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. 
-                            Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum Phasellus 
-                            condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque 
-                            sollicitudin ligula in sapien, ut ac gravida eros vestibulum.  Etiam aliquam 
-                            dictum accumsant... 
-                        </p>
-
-                        <p class="textoEscondido3">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis auctor, 
-                            mollis felis ut, commodo turpis. Phasellus felis mauris, egestas eget cursus et, iaculis quis 
-                            lacus. Fusce ut auctor eros sed magna ultricies gravida. Etiam aliquam dictum nisl, vel aliquet 
-                            enim accumsan sit amet. Donec finibus ut  nisi tellus, ut viverra lorem vestibulum ut.  
-                            Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. 
-                            Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum Phasellus 
-                            condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque 
-                            sollicitudin ligula in sapien, ut ac gravida eros vestibulum.  Etiam aliquam 
-                            dictum accumsant... 
-                        </p>
+                            <p >
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis auctor, 
+                                mollis felis ut, commodo turpis. Phasellus felis mauris, egestas eget cursus et, iaculis quis 
+                                lacus. Fusce ut auctor eros sed magna ultricies gravida. Etiam aliquam dictum nisl, vel aliquet 
+                                enim accumsan sit amet. Donec finibus ut  nisi tellus, ut viverra lorem vestibulum ut.  
+                                Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. 
+                                Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum Phasellus 
+                                condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque 
+                                sollicitudin ligula in sapien, ut ac gravida eros vestibulum.  Etiam aliquam 
+                                dictum accumsant. <span id="verMenos" style="cursor: pointer; color:#ED7839; display: none;"  onclick="resumoInteiro()">ver menos</span></p> 
+                            </p>
+                    </div>
 
                     </article> 
 
-                    <article class="discussoes resumo" >
+                    <article class="resumo"  >
                         <h1 class="tituloDetalhes resTop">
                             Discussões
                         </h1>
-                        
-                        
-                        
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                        
-                        
-                        
-                        <div id="topico" class=" discussoes resumo" style="border: none;">
+                        <div id="topico" class=" discussoes" style="border: none;">
                             
                             <section id="spc1" >
                             <h1 > Compartilhe suas ideias ou dúvidas com os autores! </h1>
@@ -365,9 +345,9 @@
                             </section>
 
 
-                            <section id="novoTopico" onclick="newTopic()">
+                            <section class="novoTopico" onclick="newTopic()">
                                 
-                                <img src="midias/adicao.png" style="margin-right: 6px;"> 
+                                <img src="midias/adicao.png" style="margin-right: 6px; "> 
                                 <span style="font-weight: 500;">criar tópico</span>
                                 
 
@@ -378,30 +358,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- <!-- --------------------------------------CONTEUDO QUE APARECE AO APERTAR NO BOTÃO "CRIAR TÓPICO"-------------------------------------------------- -->
+                        <!-- --------------------------------------CONTEUDO QUE APARECE AO APERTAR NO BOTÃO "CRIAR TÓPICO"-------------------------------------------------- -->
                         
                         <div id="criandoTopico" style="display: none;" >
                             <div id="tituloFormulario">
@@ -418,7 +375,7 @@
                                     <input class="fAssunto fassunto" type="text" placeholder="Defina um tópico sucinto para notificar os autores..."><br><br>
 
                                     <label class=tform for="conteudo">Conteúdo</label>
-                                    <input class="fAssunto fconteudo"  type="text"  >
+                                    <textarea class="fAssunto fconteudo"></textarea>
                                     
                                     <div id="fenviar">
                                         <section >
@@ -437,83 +394,32 @@
                         </div> 
                             
                        
- <!-- --------------------------------------CONTEUDO QUE APARECE AO APERTAR NO BOTÃO "CRIAR TÓPICO"-------------------------------------------------- -->                       
+                         <!-- --------------------------------------CONTEUDO QUE APARECE AO APERTAR NO BOTÃO "CRIAR TÓPICO"-------------------------------------------------- -->                       
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--------------------------------------------------- O QUE APARECE COM A CONFIRMAÇÃO DO ENVIO DO TÓPICO ------------------------------------------------------->
+     <!--------------------------------------------------- O QUE APARECE COM A CONFIRMAÇÃO DO ENVIO DO TÓPICO ------------------------------------------------------->
 
 
                         
-                                <div id="confirmEnvioTopico" style="display: none;">
+                                <article id="confirmEnvioTopico" style="display: none;">
 
-                                    <div id="" >
-                                        <div id="tituloFormulario">
+                                        <section id="tituloFormulario">
                                              <h2 id="tituloformenv"style="padding-top:15px;">Seu tópico foi enviado com sucesso! :D</h1>
                                              <h2 style="padding-top: 15px; font-weight: 300;">Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!</h2> 
                                              
                                                 <h2 style="text-decoration-line: underline;color: #F48F44; padding-top: 29px; padding-bottom: 47px;">
                                                     Descubra outros trabalhos!
                                                 </h2>
-                                        </div>
+                                        </section>
 
                                         
             
                                         <article class="discussoes " >
-                                            <section id="formulario" style="padding: 15px;">
+                                            <section style="padding: 15px;">
                                                 
-                                                <section id="novoTopico" onclick="newTopic()">
-                                    
-                                                    <!-- <img src="midias/adicao.png" style="margin-right: 6px;">  -->
+                                                <section class="novoTopico" onclick="newTopic()">
                                                     <span style="font-weight: 500; padding: 0px 50px;">criar novo tópico</span>
-                                                    
-                    
                                                 </section> 
                                             </section>                                            
                                             
@@ -528,94 +434,47 @@
 
                                         
 
-                                        <div id="AssuntoBlur" >
+                                        
                                             
-                                               <figure >
-                                                    <div class="novoAssunto" style="filter: blur(5px);background-color: 
-                                                    #E7E7E7; position: relative;">
+                                                <div >
+                                                    
+                                                    <section class="novoAssunto novoBlur" >
+                                                       
                                                         <h2 style="text-align: start;"> Assunto da pergunta aparece aqui </h2>
                                                         <span>Carlos Henrique Santos</span>
                         
                                                         <p>Comecinho da pergunta aparece aqui resente 
                                                         relato inscreve-se no campo da análise da dimensão 
                                                         e impacto de processo formativo situado impacto de processo formativo processo...</p>
-                                                    </div>
-                                                    
-                                                    <section id="respostaForm" style="position: relative;">
+                                                        
+                                                    </section>
+                                                
+                                                 </div>   
+                                                    <section id="respostaForm" >
                                                         
                                                         <img src="midias/confimado.png"><br>
                                                         <span id="textFormConfirm">Aguardando feedbacks dos autores</span><br>
-                                                        <span style="text-decoration-line: underline; color: #ED7839; font-size: 14px; cursor: pointer;"
-                                                        >Editar tópico</span>
+                                                        <span style="text-decoration-line: underline; color: #ED7839; font-size: 14px; cursor: pointer;">
+                                                            Editar tópico
+                                                        </span>
+
 
                                                     </section>
-                                                </figure>
-                                                
                                                
-                                        </div>
+
+                                                
+                                                    
+                                        
 
 
-                                        <!-- <article id="login">
-                                            <figure>
-                                                <img src="midias/fotoPerfil.png"/>                                    
-                                                <div id="notificacao">
-                                                    2
-                                                </div>
-                                            
-                                            
-                                            </figure>
-                                        </article> -->
+                                  
 
-                                    </div> 
-
-                                </div>
+                                    </article>
 
 
 
 
-<!--------------------------------------------------- O QUE APARECE COM A CONFIRMAÇÃO DO ENVIO DO TÓPICO ------------------------------------------------------->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+     <!--------------------------------------------------- O QUE APARECE COM A CONFIRMAÇÃO DO ENVIO DO TÓPICO ------------------------------------------------------->
 
 
                         
@@ -668,7 +527,7 @@
 
 
 
-
+                             <!------------------------------------ COMENTARIOS QUE SO VÃO APARECER QUANDO CLICADO NAS PERGUNTAS DO USUÁRIO ------------------------------------>
 
                             <div id="comentEscondidos" style="display: none;">
 
@@ -723,7 +582,7 @@
                             </div>
 
 
-
+                             <!------------------------------------ COMENTARIOS QUE SO VÃO APARECER QUANDO CLICADO NAS PERGUNTAS DO USUÁRIO ------------------------------------>
 
 
 
