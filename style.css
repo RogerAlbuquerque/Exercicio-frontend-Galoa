@@ -33,7 +33,7 @@ a{
 
 header{
 
-    border: 1px solid red;       
+      
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -534,6 +534,8 @@ width: 100%;
     margin-top: 20px;
 
     margin: 20px 46px 30px 43px;
+
+    height: 100%;
     
 
 }
@@ -592,6 +594,7 @@ cursor: pointer;
 #novoTopico{
     display: flex;
     flex-direction: row;
+    
     color: white;
     padding: 6px 14px;
     margin-top: -15px;

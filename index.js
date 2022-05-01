@@ -2,6 +2,10 @@ var formulario = document.getElementById("criandoTopico")
 var topico = document.getElementById("topico")
 var confirmTopico = document.getElementById("confirmEnvioTopico")
 
+var textoNone1 = document.querySelector(".textoEscondido1");
+var textoNone2 = document.querySelector(".textoEscondido2");
+var textoNone3 = document.querySelector(".textoEscondido3");
+
 function newTopic(){
 
 
@@ -35,5 +39,16 @@ function sendForm(){
 
     formulario.style.display="none"
     confirmTopico.style.display="block"
+
+}
+
+
+
+
+function resumoInteiro (){
+
+    textoNone1.style.display = "block"
+    textoNone2.style.display = "block"
+    textoNone3.style.display = "block"
 
 }

@@ -1,9 +1,4 @@
 
-#criandoTopico{
-
-    display: none;
-
-}
 
 #tituloFormulario h1, h2{
 
@@ -59,13 +54,16 @@ border-radius: 3px;
 
 
 .fbotao {
+    text-align: center;
+    padding-top:4px ;
+    padding-bottom: 4px;
 
 background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
 border-radius: 0px 0px 4px 0px;
 border: none;
 width:21.4%;
 margin-right: -2px;
-height: 31px;
+height: 21px;
 font-size: 15px;
 
 color: white;
@@ -107,4 +105,37 @@ line-height: 21px;
 text-align: center;
 
 color: #ED7839;
+}
+
+
+#respostaForm{
+
+text-align: center;
+margin-right: 160px;
+top: -110px;
+
+}
+
+
+
+
+#textFormConfirm{
+
+    font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+
+
+
+
+color: #707070;
+}
+
+
+
+.textoEscondido1, .textoEscondido2, .textoEscondido3{
+
+    display: none;
 }
