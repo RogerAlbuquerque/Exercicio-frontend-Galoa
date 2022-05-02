@@ -147,7 +147,38 @@ header h1{
 /*---- FIM LOGIN USUÁRIO ---- */
 /*---------------- FIM DO HEADER LATERAL ---------------- */
 
-/*----------------------- INÍCIO DO MENÚ LATERAL FIXO -------------------------*/
+
+
+/*----------------------- INÍCIO DO MENÚ LATERAL FIXO ASIDE -------------------------*/
+
+
+
+
+aside{
+    position: fixed;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px 0px #00000040;
+    height: 100%;
+    width: 220px;
+
+
+} 
+
+aside img{
+
+    margin-top: -2px;
+    margin-bottom: -2px;
+    
+
+}
+
+
+
+
+
+
+
+
 
 #slaca{
    
@@ -181,28 +212,7 @@ text-align: center;
 color: #FFFFFF;
 }
 
-aside{
-    position: fixed;
 
-    
-    background: #FFFFFF;
-    box-shadow: 0px 0px 10px 0px #00000040;
-
-
-
-    height: 100%;
-    width: 220px;
-
-
-} 
-
-aside img{
-
-    margin-top: -2px;
-    margin-bottom: -2px;
-    
-
-}
 
 nav ul{
     /* font-family: 'Quicksand'; */
@@ -237,7 +247,7 @@ nav a:hover{
     padding-left: 6px;
 }
 
-/*----------------------- FIM DO MENÚ LATERAL FIXO -------------------------*/
+/*----------------------- FIM DO MENÚ LATERAL FIXO -------------------------------------------------*/
 
 
 
